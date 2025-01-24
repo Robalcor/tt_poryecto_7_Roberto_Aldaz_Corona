@@ -38,6 +38,6 @@ if tipos:
 else:
     valor_t = poke_data
 
-
+#mostramos el diagrama de dispercion
 fig_2 = px.scatter(valor_t, x=valx, y=valy)
 st.plotly_chart(fig_2, use_container_width=True)
