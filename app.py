@@ -3,7 +3,7 @@ import plotly.express as px
 import streamlit as st
 
 poke_data = pd.read_csv('Pokemon.csv') #leo el database
-hist_botton =st.botton('Construir Histograma') #creo el boto para el histograma
+hist_botton =st.button('Construir Histograma') #creo el boto para el histograma
 
 if hist_botton: # al haer clic al boton
     #escribir un mensaje
